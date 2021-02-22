@@ -1,17 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* ----variables */
+:root {
+    --green-color: #7ACC2D;
+    --white-color: white;
+    --black-color: hsl(220, 6%, 20%);
+    /* ---tipografía* */
+    --normal: 12px;
+    /* -----espaciado */
+    --space: 10px;
+    /* ---box shadow* */
+    --box: 0px 0 2px 1px #e6e5e9;
+}
+
+
+
+/* ----variables */
 html,
 body {
     padding: 0px;
     margin: 0px;
-    font-size: 12px;
-    font-family: Helvetica;
+    font-size: var(--normal);
+    font-family: 'Open Sans', sans-serif;
 
 }
 
 nav {
     display: flex;
-    background-color: #7ACC2D;
-    padding: 10px;
-    color: white;
+    background-color: var(--green-color);
+    padding: var(--space);
+    color: var(--white-color);
     justify-content: space-between;
     align-items: center;
 }
@@ -26,12 +44,12 @@ nav li {
 }
 
 nav li a {
-    color: black;
+    color: var(--black-color);
     text-decoration: none;
 }
 
 nav li a:hover {
-    color: white;
+    color: var(--white-color);
 }
 
 /* ------------------------Main section */
@@ -51,14 +69,15 @@ nav li a:hover {
 }
 
 .product {
-    padding: 10px;
+    padding: var(--space);
     margin-top: -370px;
 }
 
 .product .content {
-    background-color: white;
+    background-color: var(--white-color);
     padding: 15px;
-    box-shadow: 0 0 1px #c1bcbc;
+    box-shadow: var(--box);
+
 }
 
 .image-content {
@@ -66,11 +85,11 @@ nav li a:hover {
 }
 
 .main_button {
-    background-color: #7ACC2D;
+    background-color: var(--green-color);
     width: 100%;
-    padding: 10px;
-    font-size: 12px;
-    color: white;
+    padding: var(--space);
+    font-size: var(--normal);
+    color: var(--white-color);
     border: 0;
     cursor: pointer;
     border-radius: 2px;
