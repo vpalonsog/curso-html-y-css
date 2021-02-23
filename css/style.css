@@ -98,3 +98,68 @@ nav li a:hover {
 .main_button:hover {
     background-color: #5e9e22;
 }
+
+section h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.section-2 {
+    display: flex;
+    justify-content: space-around;
+    padding: 15%;
+
+}
+
+.box h3 {
+    text-align: center;
+}
+
+.box {
+    width: 160px;
+    height: 150px;
+    border: 1px solid transparent;
+
+
+}
+
+.img-box {
+    text-align: center;
+}
+
+.section-3 {
+    margin-top: -200px;
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 15%;
+    justify-content: space-between;
+
+}
+
+.section-3 .box3 {
+    box-shadow: var(--box);
+    margin-right: 10px;
+}
+}
+
+.box3 {
+
+    height: 40px;
+}
+
+.box3 h3 {
+    padding: 0 5px;
+    margin: 0;
+}
+
+.box3 p {
+    padding: 0 5px;
+}
+
+
+
+.img-box3 {
+    margin: 0;
+    padding: 0;
+}
